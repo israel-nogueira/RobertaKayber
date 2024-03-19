@@ -2043,7 +2043,7 @@ p.tra-link a:hover:after {
 @media (max-width: 768px) {
   #hero-9 {background-image: url(../images/hero-9-768.jpg)!important;}
 }
-@media (max-width: 425px) {
+@media (max-width: 599px) {
   #hero-9 {background-image: url(../images/hero-9-375.jpg)!important;}
 }
 
