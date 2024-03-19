@@ -2024,12 +2024,30 @@ p.tra-link a:hover:after {
 /*------------------------------------------*/
 
 #hero-9 {
-  text-align: center;
-  position: relative;
-  background-image: url(../images/hero-9.jpg);
-  padding-top: 220px;
-  padding-bottom: 150px;
+	text-align: center;
+	position: relative;
+	background-image: url(../images/hero-9.jpg);
+	padding-top: 220px;
+	padding-bottom: 150px;
+	height: 800px;
+	background-position: center;
 }
+
+
+@media (max-width: 1440px) {
+  #hero-9 {background-image: url(../images/hero-9-1440.jpg)!important;}
+}
+@media (max-width: 1024px) {
+  #hero-9 {background-image: url(../images/hero-9-1024.jpg)!important;}
+}
+@media (max-width: 768px) {
+  #hero-9 {background-image: url(../images/hero-9-768.jpg)!important;}
+}
+@media (max-width: 425px) {
+  #hero-9 {background-image: url(../images/hero-9-375.jpg)!important;}
+}
+
+
 
 #hero-91 .container {
   position: relative;
