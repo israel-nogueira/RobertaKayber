@@ -50,7 +50,7 @@
 		/*----------------------------------------------------*/
 
 		if ( $(window).outerWidth() < 992 ) {
-			$('.wsmenu-list li.nl-simple, .wsmegamenu li, .sub-menu li').on('click', function() {				
+			$('.wsmenu-list li a.nl-simple, .wsmegamenu li, .sub-menu li').on('click', function() {				
 				 $('body').removeClass("wsactive");	
 				 $('.sub-menu').slideUp('slow');
      			 $('.wsmegamenu').slideUp('slow');	
